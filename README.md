@@ -11,7 +11,7 @@ Full system description referenced from project documentation.
 
 ---
 
-## 📌 Features
+## 🔹 Features
 - **Accident Detection:** Collision, rollover, and fire sensing  
 - **Driver Carelessness Assessment:** Based on activation order  
 - **GPS Tracking:** Real-time location via NEO-6M  
@@ -52,7 +52,7 @@ Full system description referenced from project documentation.
 
 ---
 
->## 🧩 Accident Severity & Delay Logic
+>### 🧩 Accident Severity & Delay Logic
 | Collision | Rollover | Fire | Delay |
 |----------|----------|------|--------|
 | Yes | No | No | 15s |
@@ -73,11 +73,10 @@ Full system description referenced from project documentation.
 ---
 
 ## 📁 Suggested Project Structure
----
+
+>### ▶️ Getting Started
 
 ```bash
-## ▶️ Getting Started
-
 ### 1️⃣ Upload Code
 Open `accident_alert_system.ino` using Arduino IDE and install required libraries.
 
@@ -116,17 +115,12 @@ This provides more accurate rollover detection.
 
 ---
 
-## 🚀 Future Improvements
+## 🔹 Future Improvements
 - Add camera module for visual confirmation  
 - Integrate heart-rate, alcohol, or drowsiness sensors  
 - Cloud-connected IoT dashboard  
 - AI/ML accident severity classification  
 - Vehicle-to-Cloud (V2C) link for smart mobility  
-
----
-
-## 🧑‍💻 Author
-**Sadeep Dilshan Kasthuriarachchi**
 
 ---
 
