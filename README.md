@@ -105,10 +105,11 @@ Confirm countdown + SMS behavior.
 
 ## 🔹 Sensor Filtering (IMU)
 A Kalman filter was used to reduce noise in:
+```bash
 - Roll  
 - Pitch  
 - Yaw  
-
+```
 This provides more accurate rollover detection.
 
 ---
