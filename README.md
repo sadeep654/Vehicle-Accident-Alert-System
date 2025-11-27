@@ -67,3 +67,61 @@ Full system description referenced from project documentation.
 ---
 
 ## 📁 Suggested Project Structure
+---
+
+## ▶️ Getting Started
+
+### 1️⃣ Upload Code
+Open `accident_alert_system.ino` using Arduino IDE and install required libraries.
+
+### 2️⃣ Assemble Hardware
+Follow the wiring diagram for all sensor and module connections.
+
+### 3️⃣ Power the System
+Regulated 5V supply using LM2596 converter.
+
+### 4️⃣ Test Scenarios
+Simulate:
+- Collision (knock)
+- Rollover (IMU orientation)
+- Fire (flame sensor)
+
+Confirm countdown + SMS behavior.
+
+---
+
+## 🔬 Sensor Filtering (IMU)
+A Kalman filter was used to reduce noise in:
+- Roll  
+- Pitch  
+- Yaw  
+
+This provides more accurate rollover detection.
+
+---
+
+## 🚧 Known Limitations
+- Initial GPS fix may take 2–3 minutes  
+- GSM reliability varies by signal strength  
+- IMU drift under long operation  
+- Requires mobile network coverage  
+
+---
+
+## 🚀 Future Improvements
+- Add camera module for visual confirmation  
+- Integrate heart-rate, alcohol, or drowsiness sensors  
+- Cloud-connected IoT dashboard  
+- AI/ML accident severity classification  
+- Vehicle-to-Cloud (V2C) link for smart mobility  
+
+---
+
+## 🧑‍💻 Author
+**Sadeep Dilshan Kasthuriarachchi**
+
+---
+
+## 📜 License
+This project is for educational and demonstrative use.  
+Feel free to fork or enhance the system.
