@@ -1,4 +1,9 @@
-# 🚨 Vehicle Accident Alert & Tracking System
+<!-- Repository Banner -->
+<p align="center">
+  <img src="img/banner.png" width="100%" alt="Project Banner" />
+</p>
+
+---
 
 A microcontroller-based system for **accident detection**, **location tracking**, and **automatic emergency alerts**. The device identifies collisions, rollovers, and fires, determines driver-carelessness level, and sends real-time GPS coordinates to emergency services via GSM.  
 Full system description referenced from project documentation.
