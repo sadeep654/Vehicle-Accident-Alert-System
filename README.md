@@ -6,8 +6,12 @@
 ---
 
 ## 🔹 Overview
+<p align="center">
+  <img src="img/accident.gif" alt="Vehicle Accident Alert Demo" width="1000px">
+</p>
+
 A microcontroller-based system for **accident detection**, **location tracking**, and **automatic emergency alerts**. The device identifies collisions, rollovers, and fires, determines driver-carelessness level, and sends real-time GPS coordinates to emergency services via GSM.  
-Full system description referenced from project documentation.
+>Full system description referenced from project documentation.
 
 ---
 
